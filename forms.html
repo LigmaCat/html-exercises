@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakta forma</title>
+  </head>
+  <body>
+    <h1>Sazinies ar mums.</h1>
+    <form>
+      <label for="Vārds">Vārds: *</label><br />
+      <input type="text" id="Vārds" name="Vārds" /><br />
+      <label for="uzvārds">Uzvārds: *</label><br />
+      <input type="text" id="uzvārds" name="uzvārds" />
+    </form>
+    <form>
+      <label for="email">E-Pasts: *</label><br />
+      <input type="text" id="email" name="email" /><br />
+    </form>
+
+    <form>
+      <input type="radio" id="atbalsts" name="fav_language" value="atbalsts" />
+      <label for="atbalsts">Tehniskais atbalsts *</label><br />
+      <input
+        type="radio"
+        id="piedāvājumi"
+        name="fav_language"
+        value="peidāvājumi"
+      />
+      <label for="css">Piedāvājumi *</label><br />
+      <input
+        type="radio"
+        id="jautājumi"
+        name="fav_language"
+        value="jautājumi"
+      />
+      <label for="jautājumi">Vispārīgi jautājumi *</label>
+    </form>
+    <form>
+      <input type="checkbox" id="jaunumi" name="janumi" value="jaunumi" />
+      <label for="jaunumi"> Vai vēlies saņemt jaunumus ? *</label>
+
+      <p><label for="w3review">Ziņojuma ievadīšana *</label></p>
+      <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+      <br />
+      <button type="submit">Iesniegt</button>
+    </form>
+  </body>
+</html>
